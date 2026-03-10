@@ -1,0 +1,596 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pannaga Sudarshan - Robotics Engineer & Researcher">
+    <title>Pannaga Sudarshan</title>
+
+    <style>
+        body {
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: 16px;
+            background-color: #ffffff;
+            color: #333333;
+            margin: 0;
+            padding: 0;
+        }
+
+        a { color: #1772d0; text-decoration: none; }
+        a:hover { color: #f09228; }
+        strong { font-weight: bold; }
+
+        table.main {
+            width: 1000px;
+            border: 0;
+            border-spacing: 0;
+            border-collapse: collapse;
+            margin: 0 auto;
+        }
+
+        /* Header */
+        td.header-text {
+            padding: 2.5%;
+            width: 63%;
+            vertical-align: middle;
+        }
+
+        td.header-photo {
+            padding: 2.5%;
+            width: 40%;
+            max-width: 40%;
+            vertical-align: middle;
+        }
+
+        td.header-photo img {
+            width: 100%;
+            max-width: 100%;
+            border-radius: 8px;
+        }
+
+        .name {
+            font-size: 28px;
+            text-align: center;
+            padding: 0;
+            margin-bottom: 10px;
+        }
+
+        .links { text-align: center; font-size: 15px; }
+        .bio { font-size: 16px; line-height: 1.4; }
+
+        .section-heading {
+            padding: 20px 20px 10px 20px;
+        }
+
+        .section-heading h2 {
+            font-size: 22px;
+            margin: 0;
+        }
+
+        /* Project inner tables */
+        table.project {
+            width: 100%;
+            border: 0;
+            border-spacing: 0;
+            border-collapse: collapse;
+        }
+
+        table.project td.pimg {
+            width: 250px;
+            padding: 15px;
+            vertical-align: top;
+        }
+
+        table.project td.ptxt {
+            padding: 15px 15px 15px 5px;
+            vertical-align: top;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        table.project td.pimg img,
+        table.project td.pimg video {
+            width: 250px;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 4px;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        table.project td.pimg img:last-child,
+        table.project td.pimg video:last-child {
+            margin-bottom: 0;
+        }
+
+        table.project td.pimg video.stacked,
+        table.project td.pimg img.stacked {
+            height: 125px;
+        }
+
+        .project-title { font-size: 17px; }
+        .project-venue { font-size: 15px; font-style: italic; }
+        .project-description { font-size: 15px; }
+
+        .highlight-bg { background-color: #E6E6FA; }
+
+        /* Experience */
+        .experience-item {
+            padding: 10px 20px;
+            font-size: 15px;
+            line-height: 1.5;
+        }
+
+        .experience-item strong { font-size: 16px; }
+        .experience-item .tech-stack { font-size: 14.5px; color: #666666; }
+
+        .footer {
+            text-align: center;
+            font-size: 12px;
+            color: #888;
+            padding: 20px;
+        }
+
+        .footer a { color: #888; }
+
+        @media screen and (max-width: 1050px) {
+            table.main { width: 100%; }
+        }
+
+        @media screen and (max-width: 600px) {
+            td.header-text, td.header-photo {
+                display: block;
+                width: 100%;
+                text-align: center;
+            }
+
+            td.header-photo { padding-top: 0; }
+
+            td.header-photo img {
+                width: 180px;
+                margin: 0 auto;
+                display: block;
+            }
+
+            table.project td.pimg,
+            table.project td.ptxt {
+                display: block;
+                width: 100%;
+            }
+
+            table.project td.pimg {
+                text-align: center;
+                padding-bottom: 5px;
+            }
+
+            table.project td.pimg img,
+            table.project td.pimg video {
+                width: 60%;
+                margin: 0 auto 6px auto;
+            }
+        }
+    </style>
+</head>
+
+<body>
+<table class="main">
+<tbody>
+
+    <!-- ==================== HEADER ==================== -->
+    <tr>
+        <td class="header-text">
+            <p class="name"><strong>Pannaga Sudarshan</strong></p>
+            <p class="bio">
+                I am currently working as a Founding Robotics Engineer at <strong>Kovari Industries</strong>, building autonomous semi-humanoids!
+                I graduated with a Masters in Robotics from the <a href="https://robotics.umich.edu/">University of Michigan, Ann Arbor</a>
+                (GPA: 3.89/4.00) after finishing my bachelors in Electronics and Communication from
+                <a href="https://jssstuniv.in/">JSS STU</a> (CGPA: 9.54/10.00).
+            </p>
+            <p class="bio">
+                Previously, I was a Robotics Software Engineer at <strong>Avea Robotics</strong>, and a Researcher at the
+                <strong><a href="https://arm.robotics.umich.edu/">ARM Lab</a></strong>,
+                <strong><a href="https://www.roahmlab.com/">ROAHM Lab</a></strong>, and
+                <strong><a href="https://brg.engin.umich.edu/">Smart Manufacturing Lab</a></strong> at UMich, working on manipulation, imitation learning, and 3D scene understanding.
+            </p>
+            <p class="bio">
+                My areas of interest are <strong>3D Robot Perception, Manipulation, SLAM, and Robot Learning</strong>.
+            </p>
+            <p class="links">
+                <strong><a href="https://github.com/PannagaS">GitHub</a></strong> &nbsp;/&nbsp;
+                <strong><a href="https://www.linkedin.com/in/pannaga-sudarshan-98815a15a/">LinkedIn</a></strong> &nbsp;/&nbsp;
+                <strong><a href="mailto:pannaga@umich.edu">Email</a></strong>
+            </p>
+        </td>
+        <td class="header-photo">
+            <img src="assets/profile.jpg" alt="Pannaga Sudarshan"
+                 onerror="this.onerror=null; this.src='data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 width=%22300%22 height=%22300%22><rect fill=%22%23e0e0e0%22 width=%22300%22 height=%22300%22 rx=%22150%22/><text x=%22150%22 y=%22170%22 text-anchor=%22middle%22 font-size=%2280%22 fill=%22%23999%22 font-family=%22Georgia%22>PS</text></svg>'">
+        </td>
+    </tr>
+
+    <!-- ==================== RESEARCH ==================== -->
+    <tr>
+        <td colspan="2" class="section-heading">
+            <h2>Research</h2>
+        </td>
+    </tr>
+
+    <!-- ARM Lab - Diffusion Policy -->
+    <tr><td colspan="2" class="highlight-bg" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <img src="assets/arm_lab.gif" alt="Diffusion policy bimanual KUKA iiwa">
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><strong>End-to-End Imitation Learning Pipeline for Bimanual Manipulation</strong></span>
+                <br>
+                <span class="project-venue"><strong>Autonomous Robotic Manipulation (ARM) Lab</strong></span>
+                <br>
+                <span class="project-description">
+                    Engineered an end-to-end data collection and <strong>imitation learning</strong> pipeline enabling bimanual <strong>KUKA iiwa</strong> robots to autonomously execute multi-step engine inspection workflows.
+                    Implemented <strong>data augmentation</strong> for multi-modal sensor data and <strong>diffusion models</strong> for <strong>domain randomization</strong> to improve <strong>sim-to-real transfer</strong>.
+                    Architected a modular <strong>ROS2</strong> framework decoupling low-level robot control from high-level task logic.
+                    <br><em>Tech Stack: <strong>Python, ROS2, Isaac Sim, Isaac Lab, PyTorch, Diffusion Policy, Docker</strong></em>
+                </span>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- Wrench-Spaces -->
+    <tr><td colspan="2" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <video class="stacked" autoplay loop muted playsinline src="assets/research_wrench1.mp4"></video>
+                <video class="stacked" autoplay loop muted playsinline src="assets/research_wrench2.mp4"></video>
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><strong>Computing Object Wrench-Spaces from Visual Demonstrations</strong></span>
+                <br>
+                <span class="project-venue"><strong>Robotics and Optimization for Analysis of Human Motion (ROAHM) Lab</strong></span>
+                <br>
+                <span class="project-description">
+                    Vision-based approach to compute wrench spaces (forces/torques) from real-world demonstrations in cell manufacturing.
+                    Captures human-object interactions to estimate <strong>6-DoF object poses</strong> for robot safety and generalization in manipulation tasks.
+                    <br><em>Tech Stack: <strong>Python, OpenCV, Open3D, PyTorch, FoundationPose, WiLoR, Docker</strong></em>
+                </span>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- BEVFormer MPC-CBF -->
+    <tr><td colspan="2" class="highlight-bg" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <img src="assets/bev.png" alt="BEV Output with Planned Path">
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><a href="https://github.com/PannagaS/rob-535-final-project"><strong>Obstacle Aware Planning on BEVFormer Generated Environments with MPC-CBF</strong></a></span>
+                <br>
+                <span class="project-description">
+                    Integrated <strong>BEVFormer</strong> perception with <strong>Model Predictive Control</strong> and <strong>Control Barrier Functions</strong> for safe trajectory
+                    optimization. Contributions include computer vision extraction, obstacle detection transformation, ellipse bounding,
+                    and CBF integration.
+                    <br><em>Tech Stack: <strong>Python, CasADi, PyTorch</strong></em>
+                </span>
+                <br>
+                <a href="https://github.com/PannagaS/rob-535-final-project">GitHub</a>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- GraspSplats -->
+    <tr><td colspan="2" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <img src="assets/grasp_splats.png" alt="GraspSplats Gaussian representation">
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><strong>VLM in Robot Manipulation for Synthetic Data: GraspSplats</strong></span>
+                <br>
+                <span class="project-venue"><strong>Robotics and Optimization for Analysis of Human Motion (ROAHM) Lab</strong></span>
+                <br>
+                <span class="project-description">
+                    Generated feature-enhanced <strong>Gaussian representations</strong> from RGB-D frames for natural language-based robotic manipulation
+                    queries. Built in <strong>PyBullet</strong> environment with <strong>Franka Emika FR3</strong> manipulator and YCB dataset objects.
+                    <br><em>Tech Stack: <strong>Python, OpenCV, Open3D, NumPy, PyTorch, 3DGS, Docker, Camera Calibration</strong></em>
+                </span>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- 6D Pose / KMR iiwa -->
+    <tr><td colspan="2" class="highlight-bg" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <video autoplay loop muted playsinline src="assets/grasp_mixer.mp4"></video>
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><a href="https://github.com/PannagaS/kmriiwa_graspmixer_demo"><strong>6D Pose Estimation and Grasping Experiments using KMR iiwa</strong></a></span>
+                <br>
+                <span class="project-venue"><strong>Barton Research Group</strong></span>
+                <br>
+                <span class="project-description">
+                    Implemented <strong>global registration + ICP</strong> pipeline with <strong>Microsoft Azure Kinect DK</strong> for 6D pose
+                    estimation. Integrated with <strong>GraspMixer</strong> grasp planning algorithm for parallel-jaw grippers.
+                    <br><em>Tech Stack: <strong>Python, OpenCV, Open3D, NumPy, PyTorch, ROS, MoveIt, 6DoF Pose Estimation</strong></em>
+                </span>
+                <br>
+                <a href="https://github.com/PannagaS/kmriiwa_graspmixer_demo">GitHub</a>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- SLAM Mobile Robot -->
+    <tr><td colspan="2" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <img class="stacked" src="assets/slam_bot_lab.png" alt="SLAM autonomous mobile robot">
+                <img class="stacked" src="assets/bot_lab.gif" alt="SLAM mobile robot in action">
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><strong>SLAM-based Autonomous Mobile Robot</strong></span>
+                <br>
+                <span class="project-venue"><strong>Robotics Systems Lab</strong></span>
+                <br>
+                <span class="project-description">
+                    Developed <strong>full-SLAM from scratch in C++</strong> using <strong>MCL</strong> and occupancy grid mapping for a differential drive AMR.
+                    Fused wheel-encoders and IMU for robust localization using <strong>Gyrodometry &amp; EKF</strong>.
+                    Implemented <strong>cascaded PID</strong> for low-level control, <strong>A* path planning</strong> for exploration, and real-time obstacle avoidance using <strong>2D LiDAR</strong>.
+                    <br><em>Tech Stack: <strong>C++, Python, ROS2, 2D LiDAR, RPi Camera, Jetson Nano</strong></em>
+                </span>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- 5 DoF Manipulator -->
+    <tr><td colspan="2" class="highlight-bg" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <img src="assets/arm_lab.png" alt="5 DoF autonomous manipulator">
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><strong>Grasping with Autonomous 5 DoF Manipulator</strong></span>
+                <br>
+                <span class="project-venue"><strong>Robotics Systems Lab</strong></span>
+                <br>
+                <span class="project-description">
+                    Developed novel algorithms for object manipulation (sorting, stacking/unstacking) for a 5 DoF <strong>ReactorX200</strong> arm.
+                    Performed <strong>intrinsic &amp; extrinsic camera calibration</strong>, classical CV techniques with <strong>Intel RealSense L515</strong> for object detection.
+                    Implemented <strong>forward &amp; inverse kinematics</strong> using DH and Newton-Raphson method.
+                    <br><em>Tech Stack: <strong>C++, Python, OpenCV, ROS2, Intel RealSense</strong></em>
+                </span>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- ==================== PROJECTS ==================== -->
+    <tr>
+        <td colspan="2" class="section-heading">
+            <h2>Projects</h2>
+        </td>
+    </tr>
+
+    <!-- RTABMap SLAM + Nav2 -->
+    <tr><td colspan="2" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <img class="stacked" src="assets/map.gif" alt="RTABMap 3D mapping">
+                <img class="stacked" src="assets/nav.gif" alt="Nav2 autonomous navigation">
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><strong>SLAM &amp; Autonomous Navigation for Semi-Humanoid Mobile Robot</strong></span>
+                <br>
+                <span class="project-venue"><strong>Kovari Industries</strong></span>
+                <br>
+                <span class="project-description">
+                    Architected full <strong>SLAM + navigation stack</strong> for an autonomous swerve drive semi-humanoid mobile robot.
+                    Built <strong>RTABMap</strong>-based 3D mapping with <strong>Nav2</strong> (<strong>MPPI</strong> controller) for dynamic-obstacle aware navigation.
+                    Fused <strong>Visual-Inertial Odometry</strong> with wheel odometry using <strong>EKF</strong> for robust <strong>6-DOF localization</strong>.
+                    Deployed at customer site for autonomous pick-and-place operations.
+                    <br><em>Tech Stack: <strong>C++, Python, ROS2, RTABMap, Nav2, EKF, Docker</strong></em>
+                </span>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- Panda Arm Motion Planning -->
+    <tr><td colspan="2" class="highlight-bg" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <img class="stacked" src="assets/safe_motion_stack1.gif" alt="Panda arm motion planning in MoveIt2">
+                <img class="stacked" src="assets/safe_motion_stack2.gif" alt="Panda arm in Isaac Sim">
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><a href="https://github.com/PannagaS/panda_path_planning_task"><strong>Panda Arm Safe Motion Planning using MoveIt2</strong></a></span>
+                <br>
+                <span class="project-description">
+                    Robotic motion-planning pipeline for the <strong>Franka Emika Panda</strong> arm using <strong>ROS 2 Humble</strong>, <strong>MoveIt 2</strong>, and RViz2.
+                    Users define start/goal poses and insert static obstacles; generates collision-free trajectories
+                    using <strong>OMPL</strong> planners and <strong>FCL</strong> collision checking. Validated in <strong>Isaac Sim</strong>.
+                    <br><em>Tech Stack: <strong>ROS2, MoveIt2, OMPL, FCL, Isaac Sim, C++</strong></em>
+                </span>
+                <br>
+                <a href="https://github.com/PannagaS/panda_path_planning_task">GitHub</a>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- Pallet Detection -->
+    <tr><td colspan="2" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <video autoplay loop muted playsinline src="assets/pallet_detection.mp4"></video>
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><a href="https://github.com/PannagaS/pallet-detection-task"><strong>Pallet Detection and Ground Segmentation for Warehouse AMR</strong></a></span>
+                <br>
+                <span class="project-description">
+                    Computer vision system for industrial pallet detection optimized for edge deployment on NVIDIA Jetson devices.
+                    Uses <strong>YOLOv11 + TensorRT</strong> achieving <strong>81.5% precision</strong>, <strong>69.3% recall</strong>, and <strong>40% inference time reduction</strong> on Jetson Orin Nano Super.
+                    <br><em>Tech Stack: <strong>Python, YOLOv11, TensorRT, ROS2, Docker, Jetson Orin Nano</strong></em>
+                </span>
+                <br>
+                <a href="https://github.com/PannagaS/pallet-detection-task">GitHub</a>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- Sensor Fusion -->
+    <tr><td colspan="2" class="highlight-bg" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <img src="assets/ekf.gif" alt="Extended Kalman Filter trajectory">
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><a href="https://github.com/PannagaS/robotics-classics"><strong>Sensor Fusion using Bayesian State Estimation for Mobile Robots</strong></a></span>
+                <br>
+                <span class="project-description">
+                    Real-time state estimation fusing noisy sensor data through <strong>Extended and Linear Kalman Filters</strong>.
+                    Custom ROS2 nodes in C++ with Eigen, featuring RViz2 trajectory visualization.
+                    <br><em>Tech Stack: <strong>C++, Eigen, ROS2, RViz2</strong></em>
+                </span>
+                <br>
+                <a href="https://github.com/PannagaS/robotics-classics">GitHub</a>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- Monte Carlo Localization -->
+    <tr><td colspan="2" style="padding:0">
+        <table class="project"><tr>
+            <td class="pimg">
+                <img src="assets/monte_carlo.gif" alt="Monte Carlo particle filter localization">
+            </td>
+            <td class="ptxt">
+                <span class="project-title"><a href="https://github.com/PannagaS/robotics-classics/blob/main/cpp/particle_filter.cpp"><strong>Monte Carlo Localization for Differential Drive Mobile Robot</strong></a></span>
+                <br>
+                <span class="project-description">
+                    <strong>Particle filter</strong> implementation in C++ for robust state estimation. Uses <strong>sequential importance resampling</strong>
+                    with dynamic noise modeling and systematic resampling for accurate localization.
+                    <br><em>Tech Stack: <strong>C++, Eigen</strong></em>
+                </span>
+                <br>
+                <a href="https://github.com/PannagaS/robotics-classics/blob/main/cpp/particle_filter.cpp">GitHub</a>
+            </td>
+        </tr></table>
+    </td></tr>
+
+    <!-- ==================== EXPERIENCE ==================== -->
+    <tr>
+        <td colspan="2" class="section-heading">
+            <h2>Experience</h2>
+        </td>
+    </tr>
+
+    <tr class="highlight-bg">
+        <td colspan="2" class="experience-item">
+            <strong>Founding Robotics Engineer</strong> &mdash; Kovari Industries, San Francisco, CA &middot; Dec 2025 &ndash; Present
+            <br>
+            <em class="tech-stack">C++, Python, Sensor Fusion, Nav2, MoveIt2, RTABMap, Docker, Robot Learning</em>
+            <br>
+            Deployed autonomous <strong>swerve drive semi-humanoid mobile robot</strong> at customer site. Architected <strong>SLAM</strong> + navigation stack
+            using <strong>RTABMap</strong> &amp; <strong>Nav2</strong> (<strong>MPPI</strong>) with dynamic-obstacle aware navigation. Fused <strong>Visual-Inertial Odometry</strong> with wheel odometry
+            using <strong>EKF</strong> for robust <strong>6-DOF localization</strong>. Developed <strong>grasp filtering and ranking</strong>, improving pick-and-place reliability
+            by <strong>15%</strong>.
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2" class="experience-item">
+            <strong>Robotics Software Engineer</strong> &mdash; Avea Robotics, San Francisco, CA &middot; Sept 2025 &ndash; Nov 2025
+            <br>
+            <em class="tech-stack">Python, PyTorch, Isaac Sim, MoveIt2, ROS2, NVBlox</em>
+            <br>
+            Developed <strong>VR pass-through teleoperation</strong> framework for bimanual <strong>SO101</strong> arms with <strong>&lt; 34 ms</strong> closed-loop latency.
+            Engineered dynamic <strong>3D reconstruction</strong> pipeline using <strong>NVBlox</strong> for real-time spatial awareness.
+            Deployed <strong>VR-integrated teleoperation</strong> for bimanual <strong>Franka Panda</strong> robots in <strong>Isaac Sim</strong>.
+        </td>
+    </tr>
+
+    <tr class="highlight-bg">
+        <td colspan="2" class="experience-item">
+            <strong>Research</strong> &mdash; Autonomous Robotic Manipulation (ARM) Lab, Ann Arbor, MI &middot; June 2025 &ndash; Aug 2025
+            <br>
+            <em class="tech-stack">Python, ROS2, Isaac Sim, Isaac Lab, Docker, Diffusion Policy</em>
+            <br>
+            Engineered end-to-end data collection and <strong>imitation learning</strong> pipeline enabling bimanual <strong>KUKA iiwa</strong> robots
+            to autonomously execute multi-step engine inspection workflows. Architected modular <strong>ROS2</strong> communication framework
+            decoupling low-level robot control from high-level task logic. Implemented <strong>data augmentation</strong> and <strong>diffusion models</strong>
+            for improving <strong>sim-to-real transfer</strong>.
+        </td>
+    </tr>
+
+    <tr>
+        <td colspan="2" class="experience-item">
+            <strong>Research</strong> &mdash; ROAHM Lab, Ann Arbor, MI &middot; Aug 2024 &ndash; May 2025
+            <br>
+            <em class="tech-stack">Python, OpenCV, Open3D, NumPy, PyTorch, 3DGS, Docker, Camera Calibration</em>
+            <br>
+            Integrated <strong>3D Gaussian Splatting</strong> with <strong>VLM</strong> for localizing objects in 3D scene.
+            Adapted <strong>GraspSplats</strong> for high-quality 3D scene representation in open-vocab robotic grasping.
+            Adapted <strong>FoundationPose</strong> &amp; <strong>WiLoR</strong> for computing object wrench for automating cell manufacturing.
+        </td>
+    </tr>
+
+    <tr class="highlight-bg">
+        <td colspan="2" class="experience-item">
+            <strong>Research</strong> &mdash; Smart Manufacturing Lab - Barton Research Group, Ann Arbor, MI &middot; Jan 2024 &ndash; May 2024
+            <br>
+            <em class="tech-stack">Python, OpenCV, Open3D, NumPy, PyTorch, ROS, MoveIt, 6DoF Pose Estimation</em>
+            <br>
+            Developed multi-object <strong>6DoF pose estimation</strong> using <strong>ICP</strong> &amp; <strong>Global Registration</strong>.
+            Performed <strong>intrinsic, extrinsic, &amp; hand-eye calibration</strong> and <strong>motion planning</strong> using <strong>ROS</strong> &amp; <strong>MoveIt</strong>.
+            Deployed <strong>GraspMixer</strong> for optimal grasp pose selection on <strong>KuKA KMR iiwa</strong> robot.
+        </td>
+    </tr>
+
+    <!-- ==================== PUBLICATIONS ==================== -->
+    <tr>
+        <td colspan="2" class="section-heading">
+            <h2>Publications</h2>
+        </td>
+    </tr>
+
+    <tr><td colspan="2" class="highlight-bg" style="padding: 10px 20px;">
+                <span class="project-title">
+                    <a href="https://ieeexplore.ieee.org/document/9663644">
+                        <strong>Self-Localization and Waypoints Following of Holonomic Three Wheeled Omni-Directional Mobile Robot</strong>
+                    </a>
+                </span>
+                <br>
+                <span class="project-authors"><strong>Pannaga Sudarshan</strong></span>
+                <br>
+                <span class="project-venue">IEEE DISCOVER, 2021 &middot; pp. 253-258</span>
+                <br>
+                <strong style="color: #b8860b;">&#9733; Best Paper Award</strong>
+                <br>
+                <a href="https://ieeexplore.ieee.org/document/9663644">paper</a>
+    </td></tr>
+
+    <tr><td colspan="2" style="padding: 10px 20px;">
+                <span class="project-title">
+                    <a href="https://icrtst.atme.in/assets/ICRTST-2020%20Proceeding.pdf">
+                        <strong>Two Factor Authentication System</strong>
+                    </a>
+                </span>
+                <br>
+                <span class="project-authors"><strong>Pannaga Sudarshan</strong></span>
+                <br>
+                <span class="project-venue">International Conference on Recent Trends in Science &amp; Technology (ICRTST), 2020</span>
+                <br>
+                <a href="https://icrtst.atme.in/assets/ICRTST-2020%20Proceeding.pdf">paper</a>
+    </td></tr>
+
+    <!-- ==================== FOOTER ==================== -->
+    <tr>
+        <td colspan="2" class="footer">
+            <br>
+            &copy; Pannaga Sudarshan, 2025. Template inspired by <a href="https://jonbarron.info/">Jon Barron</a>.
+            <br><br>
+        </td>
+    </tr>
+
+</tbody>
+</table>
+
+</body>
+</html>
